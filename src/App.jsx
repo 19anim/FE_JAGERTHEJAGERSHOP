@@ -5,6 +5,8 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import Header from './components/CommonComponents/Header/Header';
 import Footer from './components/CommonComponents/Footer/Footer';
+import Layout_LandingPage from './components/CommonComponents/Layout_LandingPage/Layout';
+import Content from './components/CommonComponents/Content/Content';
 
 function App() {
   // const [message, getMessage] = useState('')
@@ -21,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-
+      <Content />
       <Footer />
     </div>
   );
