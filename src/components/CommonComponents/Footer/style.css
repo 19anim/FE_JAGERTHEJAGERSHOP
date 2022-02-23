@@ -9,10 +9,10 @@
 }
 
 .Footer{
-    position: absolute;
-    bottom: 30px;
+    position: relative;
     left: 40px;
     width: calc(100% - 40px);
+    margin-top: 150px;
     background-color: #2B2B2B;
 }
 
@@ -41,4 +41,8 @@ path{
     display: flex;
     align-items: center;
     margin-right: 20px;
+}
+
+.footer-item > a{
+    text-decoration: none;
 }
