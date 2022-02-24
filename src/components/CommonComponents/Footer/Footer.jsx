@@ -29,17 +29,17 @@ function Footer(props) {
                     <span>0927183879 - 0818191099</span>
                 </div>
                 <div className='footer-item'>
-                    <a href="https://www.facebook.com/19.anim" target="_blank">
-                        <div className='outer-icon'>
-                            <FontAwesomeIcon icon={brands('facebook-f')} />
-                        </div>
-                        <span>Fanpage (Click me)</span>
-                    </a>
                     <a href="https://www.facebook.com/jagerthejager" target="_blank">
                         <div className='outer-icon'>
                             <FontAwesomeIcon icon={brands('facebook-f')} />
                         </div>
                         <span>Fanpage (Click me)</span>
+                    </a>
+                    <a href="https://www.facebook.com/19.anim" target="_blank">
+                        <div className='outer-icon'>
+                            <FontAwesomeIcon icon={brands('facebook-f')} />
+                        </div>
+                        <span>Personal Facebook (Click me)</span>
                     </a>
                 </div>
                 <div className='footer-item'>

@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Header from '../../components/CommonComponents/Header/Header';
+import Content from '../../components/CommonComponents/Content/Content';
+import Footer from '../../components/CommonComponents/Footer/Footer';
 
 LandingPage.propTypes = {
 
@@ -7,9 +10,11 @@ LandingPage.propTypes = {
 
 function LandingPage(props) {
     return (
-        <div>
-
-        </div>
+        <>
+            <Header />
+            <Content />
+            <Footer />
+        </>
     );
 }
 

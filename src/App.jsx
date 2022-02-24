@@ -3,10 +3,9 @@ import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
-import Header from './components/CommonComponents/Header/Header';
-import Footer from './components/CommonComponents/Footer/Footer';
-import Layout_LandingPage from './components/CommonComponents/Layout_LandingPage/Layout';
-import Content from './components/CommonComponents/Content/Content';
+import LandingPage from './pages/LandingPage/LandingPage';
+import { Route, Routes, Link } from 'react-router-dom';
+import ProductPage from './pages/ProductPage/ProductPage';
 
 function App() {
   // const [message, getMessage] = useState('')
@@ -22,9 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Content />
-      <Footer />
+      <LandingPage />
     </div>
   );
 }

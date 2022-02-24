@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './style.css'
 
@@ -14,10 +15,10 @@ function Header(props) {
                 <span>JAGERTHEJAGER SHOP</span>
             </div>
             <div className="menus">
-                <button>About</button>
-                <button>Products</button>
-                <button>Shopping</button>
-                <button>Recipes</button>
+                <button><Link to="/">About</Link></button>
+                <button><Link to="/products">Products</Link></button>
+                <button><Link to="/">Shopping</Link></button>
+                <button><Link to="/">Recipes</Link></button>
             </div>
         </div>
     );
