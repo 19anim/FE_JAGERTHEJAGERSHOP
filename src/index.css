@@ -15,11 +15,6 @@ code {
     monospace;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 #root{
   width: 100vw;
@@ -79,6 +74,14 @@ code {
   }
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Header */
+
 .logo{
   display: flex;
   justify-content: center;
@@ -100,3 +103,10 @@ code {
 .menus > ol > li{
   margin-right: 15px;
 }
+
+.Header > .logo > img{
+  width: 30%;
+  height: auto;
+}
+
+/* ========================================================== */
