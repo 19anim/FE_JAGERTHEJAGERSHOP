@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
-*{
-    font-family: 'Poppins';
-}
 
 img{
-    width: 100px;
+    width: 30%;
+    height: auto;
 }
-
+/* 
 .Header{
     background-color: #000;
     position: relative;
@@ -50,4 +46,4 @@ button{
 
 button > a{
     text-decoration: none;
-}
+} */
