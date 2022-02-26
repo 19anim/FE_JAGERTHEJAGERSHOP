@@ -1,25 +1,28 @@
-.Content {
+/* .Content {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
     margin-top: 100px;
-}
+} */
 
 .content-right {
-    background-image: url("../../../../public/images/ShopLogo/ShopLogo.png");
-    width: 500px;
+    /* background-image: url("../../../../public/images/ShopLogo/ShopLogo.png"); */
+    /* width: 500px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.content-right > img {
+    width: 100%;
+    height: auto;
 }
 
 .content-left {
-    width: 60%;
     word-break: break-word;
-    margin-right: 50px;
 }
 
 .content-left > .product-navigator {
