@@ -16,8 +16,6 @@ function TelegramBot(props) {
             parcel: "1 chai 700, 1 dau huou vang nho",
             phone: "0927183879",
             address: "304/50/16 Nguyen Thuong Hien p5 quan Phu Nhuan"
-        }).then(respone => {
-            console.log(respone)
         })
     }
 
