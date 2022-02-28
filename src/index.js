@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import LandingPage from './pages/LandingPage/LandingPage';
 import { Route, Routes, Link } from 'react-router-dom';
 import ProductPage from './pages/ProductPage/ProductPage';
+import TelegramBot from './pages/TelegramBot/TelegramBot';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" exact element={<App />} />
         <Route path="products" exact element={<ProductPage />} />
+        <Route path="ZaloAPI" exact element={<TelegramBot />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
