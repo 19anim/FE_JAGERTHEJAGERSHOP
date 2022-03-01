@@ -1,26 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Footer from '../../components/CommonComponents/Footer/Footer';
 import Header from '../../components/CommonComponents/Header/Header';
 import ProductsContent from '../../components/ProductsContentComponent/ProductsContent';
 
 ProductPage.propTypes = {
-
+    orderCount: PropTypes.number,
+    setOrderCount: PropTypes.func,
 };
 
 function ProductPage(props) {
-
-    const productPage = {
-        width: '100%',
-        height: '100%',
-        backgroundColor: '#000',
-        overflow: 'auto',
-    }
+    const { orderCount, setOrderCount } = props
 
     return (
-        <div className='ProductPage' style={productPage}>
-            <Header />
-            <ProductsContent />
+        <div className='pages'>
+            <Header orderCount={orderCount} />
+            <ProductsContent orderCount={orderCount} setOrderCount={setOrderCount} />
             <Footer />
         </div>
     );

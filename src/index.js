@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom"
 import './index.css';
@@ -11,13 +11,14 @@ import TelegramBot from './pages/TelegramBot/TelegramBot';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <App />
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<App />} />
         <Route path="products" exact element={<ProductPage />} />
         <Route path="ZaloAPI" exact element={<TelegramBot />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
